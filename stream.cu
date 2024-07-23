@@ -62,7 +62,7 @@ void parse_options(int argc, char** argv, bool& SI, int& N, int& blockSize)
 {
     // Default values
     SI = false;
-    N = 1<<26;
+    N = 1<<29;
     blockSize = 192;
 
     int c;
